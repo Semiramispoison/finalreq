@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sussy Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Picsart_23-03-27_10-44-10-649.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fal fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="skills.html">SKILLS</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>My Contacts</h1>
+    </section>
+ 
+    <!-----Contact-->
+
+    <section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d506.6312851732083!2d123.2811374894679!3d9.273943340722736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab68bf652f24b1%3A0xfe1c40fba4ef1b5f!2siHome%20Metro%20Dumaguete!5e0!3m2!1sen!2sph!4v1679976290953!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div> <i class="fa fa-facebook"></i> 
+                <span>
+                <h5>John Benedict Villamor</h5>
+                <p>This is my Facebook name</p>
+                </span>
+                </div>
+
+<div> <i class="fa fa-phone"></i> 
+<span>
+<h5>09939682675</h5>
+<p>This is my phone number</p>
+</span>
+</div>
+
+<div> <i class="fa fa-envelope-o"></i> 
+    <span>
+    <h5>jyvillamor.student@asiancollege.edu.ph</h5>
+    <p>This is my email address</p>
+    </span>
+    </div>
+        </div>
+
+       
+
+
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+
+
+</section>
+
+<!-----Footer-->
+<section class="footer">
+    <h4>AMONG US</h4>
+    <p>Libre 150 diri lods</p>
+    <div class="icons"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       
+
+    </div>
+    <p>Made by <i class="fa fa-heart"></i> Tanga sayangas oras</p>
+</section>
+
+<!-----Java Script toggle--------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
+sda
